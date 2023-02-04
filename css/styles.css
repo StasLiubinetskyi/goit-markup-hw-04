@@ -202,8 +202,14 @@ img {
     padding-top: 188px;
     padding-bottom: 188px;
     text-align: center;
-
     background-color: var(--title-color);
+
+    background-color: var(--primary-bg-cl);
+    background-image: url(../images/hero/people-office.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
 }
 
 .hero-title {
