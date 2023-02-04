@@ -140,7 +140,10 @@ img {
 .team-list-text,
 .portfolio-list-text {
     line-height: 1.5;
-}
+    }
+    .team-list-text {
+        margin-bottom: 8px;
+    }
 
 /* Header */
 
@@ -198,19 +201,35 @@ img {
 }
 
 /* Hero */
+
+.features-frame {
+        display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 8px;
+            height: 112px;
+            background-color: var(--color-cloud);
+
+}
+
 .hero {
+    max-width: 1440px;
+    margin-right: auto;
+    margin-left: auto;
+
     padding-top: 188px;
     padding-bottom: 188px;
     text-align: center;
     background-color: var(--title-color);
 
+
     background-color: var(--primary-bg-cl);
-    background-image: url(../images/hero/people-office.jpg);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)),
+    url(../images/hero/people-office.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-
-}
+  }
 
 .hero-title {
     width: 494px;
@@ -257,6 +276,7 @@ img {
 
 .section.team {
     background-color: var(--color-cloud);
+    
 }
 
 .team-list-item {
@@ -269,7 +289,15 @@ img {
 .team-desc {
     padding: 32px 0;
     text-align: center;
-}
+        }
+
+.social {
+        display: flex;
+        align-content: center ;
+        justify-content: center;
+        gap: 24px;
+
+    }
 
 /* Footer */
 
