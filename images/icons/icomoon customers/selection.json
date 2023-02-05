@@ -25,12 +25,12 @@
         }
       ],
       "properties": {
-        "order": 22,
-        "id": 0,
+        "order": 30,
+        "id": 5,
         "name": "Logo",
         "prevSize": 32
       },
-      "setIdx": 0,
+      "setIdx": 1,
       "setId": 5,
       "iconIdx": 0
     },
@@ -184,12 +184,12 @@
         }
       ],
       "properties": {
-        "order": 23,
-        "id": 1,
+        "order": 31,
+        "id": 4,
         "name": "Logo-1",
         "prevSize": 32
       },
-      "setIdx": 0,
+      "setIdx": 1,
       "setId": 5,
       "iconIdx": 1
     },
@@ -301,12 +301,12 @@
         }
       ],
       "properties": {
-        "order": 18,
-        "id": 2,
+        "order": 32,
+        "id": 3,
         "name": "Logo-2",
         "prevSize": 32
       },
-      "setIdx": 0,
+      "setIdx": 1,
       "setId": 5,
       "iconIdx": 2
     },
@@ -355,12 +355,12 @@
         }
       ],
       "properties": {
-        "order": 19,
-        "id": 3,
+        "order": 33,
+        "id": 2,
         "name": "Logo-3",
         "prevSize": 32
       },
-      "setIdx": 0,
+      "setIdx": 1,
       "setId": 5,
       "iconIdx": 3
     },
@@ -451,12 +451,12 @@
         }
       ],
       "properties": {
-        "order": 20,
-        "id": 4,
+        "order": 34,
+        "id": 1,
         "name": "Logo-4",
         "prevSize": 32
       },
-      "setIdx": 0,
+      "setIdx": 1,
       "setId": 5,
       "iconIdx": 4
     },
@@ -603,12 +603,12 @@
         }
       ],
       "properties": {
-        "order": 21,
-        "id": 5,
+        "order": 35,
+        "id": 0,
         "name": "Logo-5",
         "prevSize": 32
       },
-      "setIdx": 0,
+      "setIdx": 1,
       "setId": 5,
       "iconIdx": 5
     }
