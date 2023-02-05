@@ -6,6 +6,7 @@
     --color-cloud: #F4F4FD;
     --color-cornflower: #E7E9FC;
     --hover-color: #404BBF;
+    --company-logo-color: #8E8F99;
 }
 
 body {
@@ -141,13 +142,13 @@ img {
 .team-list-text,
 .portfolio-list-text,
 .social-list-title {
-    line-height: 1.5;
-    }
-    .team-list-text {
-        margin-bottom: 8px;
+line-height: 1.5;
     }
 
-/* Header */
+.team-list-text {
+margin-bottom: 8px;
+    }
+  /* Header */
 
 .header {
     border-bottom: 1px solid var(--color-cornflower);
@@ -370,6 +371,11 @@ border-radius: 4px;
     }
 
 /* Footer */
+
+.container footer-box{
+    display: flex;
+    align-items: baseline;
+}
 
 .footer {
     padding-top: 100px;
