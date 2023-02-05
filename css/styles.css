@@ -30,6 +30,7 @@ ul {
 }
 
 img {
+    display: block;
     max-width: 100%;
     height: auto;
 }
@@ -297,6 +298,39 @@ img {
         justify-content: center;
         gap: 24px;
 
+    }
+       
+/* Customers */
+.section.customers{
+    padding-top: 130px;
+}
+
+.customers-list{
+    display: flex;
+    gap: 24px;
+}
+
+.customers-list-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 168px;
+    height: 88px;
+    border: 1px solid var(--company-logo-color);
+    border-radius: 4px;
+}
+.customers-list-link:hover,
+.customers-list-link:focus{
+    border: 1px solid var(--hover-color);}
+
+
+.customers-list-icon{
+    fill: var(--company-logo-color);
+}
+
+.customers-list-link:hover .customers-list-icon,
+.customers-list-link:focus .customers-list-icon{
+    fill: var(--hover-color);
     }
 
 /* Footer */
