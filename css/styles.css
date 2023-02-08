@@ -188,7 +188,21 @@ img {
     color: var(--title-color);
 }
 
+.menu-link.current::after {
+    content: " ";
+    
+    position: absolute;
+    width: 48px;
+    height: 4px;
+    left: 0px;
+    top: 48px;
+
+    background: #404BBF;
+    border-radius: 2px;
+
+}
 /* menu */
+
 .navigation {
     display: flex;
     align-items: center;
